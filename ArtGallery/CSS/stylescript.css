@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(../images/centre1.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 1px solid  rgb(245, 241, 241) ;
+    
+}
+
+ul li a:hover{
+    background-color: rgb(245, 241, 241);
+    color:rgb(2, 37, 37);
+}
+
+ul li.use a{
+    background-color: rgb(240, 235, 235);
+    color:rgb(2, 37, 37)
+}
+
+.first{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.middle{
+    position:absolute;
+    top:50%;
+    bottom:40%;
+    margin-left:10%;
+}
+
+.middle{
+    color:rgb(240, 235, 235);
+    font-size: 30px;
+}
+
+.footer{
+    color:rgb(30, 37, 39);
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.fab{
+    margin-top:8%;
+    margin-bottom: 5%;
+    padding-right: 2em;
+}
+
+#h1{
+    margin-top: 5%;
+}
+
+#rights{
+    display:inline;
+   
+}
+
+.BGcolor{
+    background-color: rgb(51, 50, 50);
+}
+
+
+.t1{
+    color:white;
+    float:right;
+    margin-top:30px;
+    margin-right: 50px;
+}
+
+#p1{
+    margin-top: 50px;
+}
+
+
+#p1 p{
+   font-size: 20px;
+   margin-left: 43px;
+   margin-right: 43px;
+   color:whitesmoke;
+}
+
+#heading{
+    margin-left: 3%;
+    color:white;
+}
+
+

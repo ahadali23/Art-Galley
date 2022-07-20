@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link href="..\CSS\login.css" rel="stylesheet">
+		<script src="..\JS\signup.js"></script>
+		<link rel="icon" href="..\images\logo.png">
+	</head>
+	<body>
+		<div class="first">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li class="use"><a href="Login.html">Login</a></li>
+				<li><a href="AboutUs.html">About US</a></li>
+				<li><a href="ContactUs.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<br><br>
+		<div id="box">
+			<h1>Registration</h1>
+			<h3>Create Account For Free</h3>
+			<hr>
+			<form name="form1">
+				<table id="f">
+					<tr>
+						<td>
+							<label class="t1"> First Name </label>
+							<input type="text" name="fname" placeholder="First Name" required>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td>
+							<label class="t1"> Last Name </label>
+							<input type="text" name="lname" placeholder="Last Name" required>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td>
+							<label class="t1"> Username </label>
+							<input type="text" name="uname" placeholder="Username" size="20" required>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td colspan="3">
+							<label class="t1"> Email </label>
+							<input type="text" name="email" placeholder="Email Address" size="50" required>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td colspan="3">
+							<label class="t1"> New Password </label>
+							<input type="text" name="pass" placeholder="New Password" size="41" required>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td>
+							<label class="t1"> Confirm Password </label>
+							<input type="text" name="repass" placeholder="Re-type Password" required>
+						</td>
+						<br>
+					</tr>
+					<tr></tr>
+				</table>
+				<hr>
+				<div class="gender">
+					<label class="t1"> Gender </label>
+					<input type="radio" value="none" id="male" name="gender" checked>
+					<label class="t1" for="male" class="radio" id="gen"> Male</label>
+					<input type="radio" value="none" id="female" name="gender">
+					<label class="t1" for="female" class="radio" id="gen"> Female</label>
+				</div>
+				<p class="t1">By clicking Register, you agree on our terms and condition</p>
+				<br>
+				<button class="link2" type="submit" onclick="f1()">Register</button>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+body
+{
+    background-color: rgb(51, 50, 50);
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    padding: 5px 20px;
+    border: 1px solid  rgb(245, 241, 241) ;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: rgb(245, 241, 241);
+    color:rgb(2, 37, 37);
+}
+
+ul li.use a{
+    background-color: rgb(240, 235, 235);
+    color:rgb(2, 37, 37)
+}
+
+.first{
+    max-width: 1200px;
+    margin:auto;
+}
+.div
+{
+    width: 1000px;
+    height: 210px;
+    padding-left: 160px;
+    padding-top: 10px;
+    padding-right: 100px;
+    margin-bottom:0px;
+    margin-top:20px;
+}
+.box1
+{
+    width:220px;
+    height:200px;
+    float:left;
+}
+.img
+{
+    width: 220px;
+    height:200px;
+    border: 5px solid black; 
+}
+.box2
+{ 
+    width:220px;
+    height:200px;
+    float:left;
+    margin-left:40px;
+}
+.div2
+{
+    width: 900px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-bottom: 10px;
+    margin-bottom:30px;
+}
+.name1
+{
+    width:230px;
+    height:40px;
+    float:left;
+    color: white;
+}
+.name2
+{
+    width:230px;
+    height:40px;
+    float:left;
+    margin-left:30px;
+}
+p
+{
+    text-align:center;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;}
+.container
+{
+    width:100%;
+    height: auto;
+    padding:0px;
+}
+.header
+{
+    width:100%;
+    height:250px;
+    margin-bottom: 10px;
+}
+.header img
+{
+    width:100%;
+    height:250px;
+}
+h2
+{
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+}
+.painting
+{
+    width: 100%;
+    height:270px;
+    margin-top: 140px;
+    text-align: center;
+}
+.painting img
+{
+    width: 500px;
+    height:270px;
+    border: 1px solid white;
+}
+h1
+{
+    text-align: center;
+    color: white;
+}
+.pdiv
+{
+    height:250px;
+    width: 580px;
+    margin: auto;
+}
+.pdiv p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+a:link
+{
+    text-decoration: none;
+}
+.button
+{
+    text-align: center;
+    color:black;
+}
+.buttons{
+    background-color:white;
+    margin: auto;
+    width:150px;
+    height:60px;
+    border:none;
+    font-size: 18px;
+}
+
